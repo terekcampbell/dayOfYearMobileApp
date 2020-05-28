@@ -2,7 +2,8 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import moment from 'moment';
 
-export default function ScreenTwo() {
+
+export default function WeekOfYear() {
 
     const weekOfYear = moment().week();
     return (
