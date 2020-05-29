@@ -11,7 +11,7 @@ const Tab = createMaterialTopTabNavigator();
 export default function TabNavigator() {
     return (
         <NavigationContainer>
-            <Tab.Navigator style={{marginTop: 10}} initialRouteName="Day">
+            <Tab.Navigator initialRouteName="Day">
                 <Tab.Screen name="Pick" component={PickADay} />
                 <Tab.Screen name="Day" component={DayOfYear} />
                 <Tab.Screen name="Week" component={WeekOfYear} />

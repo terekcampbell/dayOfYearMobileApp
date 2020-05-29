@@ -19,6 +19,7 @@ export default function PickADay() {
             <Text
                 style={{
                     fontSize: 20,
+                    marginBottom: 20
                 }}>
                 Pick A Day
             </Text>
@@ -26,6 +27,9 @@ export default function PickADay() {
             <DatePicker
                 date={date}
                 onDateChange={setDate}
+                mode="date"
+                textColor="#000000"
+                fadeToColor="white"
             />
 
             <Text
